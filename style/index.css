@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    direction: rtl;
+    background-image: url(/bingo.jpg);
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #000;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
